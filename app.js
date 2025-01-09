@@ -63,3 +63,59 @@ let favouriteProgrammingLanguage = "JavaScript";
 let currentCourseDay = 3;
 
 const sentence = "My favourite programking language is " + favouriteProgrammingLanguage + " and today is day " + currentCourseDay + " of learning how to program HTML, CSS and JavaScript."
+
+
+// conditionals
+
+if (0 < 1)
+{
+    console.log("1 is greater than 0");
+}
+
+let age3 = 10
+let legalDrivingAge = 17;
+
+if (age > legalDrivingAge)
+{
+    console.log("You are old enough to drive");
+}
+
+let isRoadLegal = false;
+
+const age4 = 18;
+const legalDrivingAge1 = 17;
+
+if (age4 > legalDrivingAge1)
+{
+    isRoadLegal = true;
+}
+
+console.log("Am I road legal?", isRoadLegal);
+
+let age5 = 10;
+let legalDrivingAge2 = 17;
+
+if (age5 > legalDrivingAge2)
+{
+    console.log("You can drive!");
+}
+else
+{
+    console.log("You are not old enough to drive!");
+}
+
+let age6 = 17
+let legalDrivingAge3 = 17
+
+if (age > legalDrivingAge3)
+{
+    console.log("You're old enough to drive as you are " + legalDrivingAge3);
+}
+else if (age6 ===legalDrivingAge3)
+{
+    console.log("You're just old enough to drive at " + legalDrivingAge3);
+}
+else if (age6 < legalDrivingAge3)
+{
+    console.log("You're not old enough to drive as you are " + legalDrivingAge3);
+}
