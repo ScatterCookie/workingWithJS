@@ -4,14 +4,14 @@
     let myName = "Liam";
     console.log("Hello" + myName);
     /* setting age to 30 */
-    let age = 30;
-    console.log(age);
+    let myAge = 30;
+    console.log(myAge);
     /* getting age, adding 2 multiplied by 4 */
     console.log(age + 2 * 4);
 
 
-let number = 1;
-console.log(number);
+let numbers = 1;
+console.log(numbers);
 
 let mints = 10;
 let chocolates = 5
@@ -40,8 +40,8 @@ console.log(typeof myName2);
 let number = 1;
 console.log("The type of number is " + typeof number);
 
-let isTrue = true;
-console.log("The type of isTrue is " + typeof isTrue);
+let isTrues = true;
+console.log("The type of isTrue is " + typeof isTrues);
 
 let name;
 console.log(name);
