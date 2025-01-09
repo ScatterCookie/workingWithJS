@@ -119,3 +119,18 @@ else if (age6 < legalDrivingAge3)
 {
     console.log("You're not old enough to drive as you are " + legalDrivingAge3);
 }
+
+let age7 = 17;
+let movieRating = "PG";
+
+if (age7 > 17)
+{
+    console.log("You can watch any movie!")
+}
+else if (age7 === 17)
+{
+    if (movieRating === "PG")
+    {
+        console.log("You can watch this movie!")
+    }
+}
