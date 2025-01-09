@@ -7,7 +7,7 @@
     let myAge = 30;
     console.log(myAge);
     /* getting age, adding 2 multiplied by 4 */
-    console.log(age + 2 * 4);
+    console.log(myAge + 2 * 4);
 
 
 let numbers = 1;
