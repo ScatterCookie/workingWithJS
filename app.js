@@ -134,3 +134,20 @@ else if (age7 === 17)
         console.log("You can watch this movie!")
     }
 }
+
+const body = document.querySelector("body");
+console.log(body);
+
+const h1 = document.querySelector("h1");
+h1.textContent = "Hello Liam";
+
+const image = document.querySelector("img");
+image.src = "https://p325k7wa.twic.pics/high/elden-ring/elden-ring/08-shadow-of-the-erdtree/elden-ring-expansion-SOTE/00-page-content/ERSOTE-header-mobile.jpg?twic=v1/step=10/quality=80/max=760";
+
+body;
+h1;
+
+h1.textContent = "this is a heading"
+body.appendChild(h1);
+
+h1.remove();
